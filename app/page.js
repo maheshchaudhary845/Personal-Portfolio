@@ -471,52 +471,56 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="skills" className="bg-[#001f1f] text-white p-2 min-h-screen">
-          <motion.h2
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true, amount: 0.2 }}
-            className="text-3xl font-semibold underline underline-offset-8 decoration-sky-300 mt-10">
-            Skills
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            viewport={{ once: true, amount: 0.2 }}
-            className="mt-10"
-          >
-            Here are some of the technologies and tools I&apos;ve worked with. I&apos;m always exploring new technologies to expand my skillset and improve as a developer.
-          </motion.p>
-          <div className="grid md:grid-cols-2 mt-5">
-            {skills.map((skill, index) => {
-              return <div key={index} className="w-full p-4">
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                  viewport={{ once: true, amount: 0.2 }}
-                  className="flex justify-between mb-1">
-                  <span className="font-medium">{skill.name}</span>
-                  <span>{skill.level}%</span>
-                </motion.div>
-                <motion.div
-                  initial={{ width: 0 }}
-                  whileInView={{ width: "100%" }}
-                  transition={{ duration: 0.5 }}
-                  viewport={{ once: true, amount: 0.2 }}
-                  className="w-full bg-gray-700 rounded-full h-3">
+        <section id="skills" className="relative bg-[#001f1f] text-white p-2 min-h-screen">
+          <div className="absolute inset-0 bg-center bg-cover bg-[url('/skills_bg.jpg')] "></div>
+          <div className="absolute bg-black inset-0 opacity-90"></div>
+          <div className="relative z-10">
+            <motion.h2
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true, amount: 0.2 }}
+              className="text-3xl font-semibold underline underline-offset-8 decoration-sky-300 mt-10">
+              Skills
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true, amount: 0.2 }}
+              className="mt-10"
+            >
+              Here are some of the technologies and tools I&apos;ve worked with. I&apos;m always exploring new technologies to expand my skillset and improve as a developer.
+            </motion.p>
+            <div className="grid md:grid-cols-2 mt-5">
+              {skills.map((skill, index) => {
+                return <div key={index} className="w-full p-4">
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                    viewport={{ once: true, amount: 0.2 }}
+                    className="flex justify-between mb-1">
+                    <span className="font-medium">{skill.name}</span>
+                    <span>{skill.level}%</span>
+                  </motion.div>
                   <motion.div
                     initial={{ width: 0 }}
-                    whileInView={{ width: `${skill.level}%` }}
-                    transition={{ duration: 1, delay: index * 0.1 }}
+                    whileInView={{ width: "100%" }}
+                    transition={{ duration: 0.5 }}
                     viewport={{ once: true, amount: 0.2 }}
-                    className="h-3 bg-cyan-500 rounded-full"
-                  ></motion.div>
-                </motion.div>
-              </div>
-            })}
+                    className="w-full bg-gray-700 rounded-full h-3">
+                    <motion.div
+                      initial={{ width: 0 }}
+                      whileInView={{ width: `${skill.level}%` }}
+                      transition={{ duration: 1, delay: index * 0.1 }}
+                      viewport={{ once: true, amount: 0.2 }}
+                      className="h-3 bg-cyan-500 rounded-full"
+                    ></motion.div>
+                  </motion.div>
+                </div>
+              })}
+            </div>
           </div>
         </section>
 
