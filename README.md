@@ -24,7 +24,51 @@ It highlights my **skills, education, projects, experience, and contact details*
 - **Education** → Timeline of qualifications  
 - **Experience** → Internship, personal projects, freelance work  
 - **Projects** → Showcased personal projects with GitHub links  
-- **Contact** → Contact form + Google Maps location  
+- **Contact** → Contact form + Google Maps location 
+
+---
+
+## ⚙️ Installation  
+
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/maheshchaudhary845/Personal-Portfolio.git
+   cd personal-portfolio
+   ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the dev server:
+    ```bash
+    npm run dev
+    ```
+4. Open in browser:
+    ```bash
+    http://localhost:3000
+    ```
+
+---
+
+## 🛜 Live Server (Deployed on Vercel)
+https://personal-portfolio-snowy-pi.vercel.app/
+
+---
+
+# 📸 Screenshots
+
+_Add screenshots of the app here (homepage, forecast section, etc.)_
+
+![Homepage](./public/screenshots/home.png)
+![About](./public/screenshots/about.png)
+![Skills](./public/screenshots/skills.png)
+![Education](./public/screenshots/education.png)
+![Experience](./public/screenshots/experience.png)
+![Projects](./public/screenshots/projects.png)
+![Contact](./public/screenshots/contact.png)
+
+---
 
 ### 📬 Contact Me  
 - **Email:** mehits7@gmail.com  
