@@ -58,10 +58,10 @@ export default function Home() {
   const skills = [
     { name: "HTML5", level: 85 },
     { name: "CSS", level: 80 },
-    { name: "JavaScript", level: 60 },
-    { name: "React", level: 70 },
-    { name: "Node.js", level: 60 },
-    { name: "Java", level: 40 },
+    { name: "JavaScript", level: 80 },
+    { name: "React", level: 80 },
+    { name: "Node.js", level: 80 },
+    { name: "MongoDB", level: 80 },
   ]
 
   const projects = [
@@ -335,7 +335,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-md lg:text-lg text-sm text-gray-300 text-pretty">a passionate Full-Stack Developer and Programmer who loves building web applications, solving problems, and creating digital experiences.</motion.p>
-            <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="w-fit my-4" >
+            <a href="/MaheshChaudharyResume.pdf" target="_blank" rel="noopener noreferrer" className="w-fit my-4" >
               <motion.button
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -406,7 +406,7 @@ export default function Home() {
                     <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#00689d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                   </svg>
                   <strong>Email:</strong>
-                  <a href="mailto:mehits7@gmail.com">mehits7@gmail.com</a>
+                  <a href="mailto:mehits7@gmail.com">maheshchaudhary845@gmail.com</a>
                 </li>
                 <li className="flex items-center gap-2 md:gap-4 p-1 md:p-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#00689d" fill="none">
@@ -420,7 +420,7 @@ export default function Home() {
                     <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#00689d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                   </svg>
                   <strong>Phone:</strong>
-                  <a href="tel:+917018808347">+91 7018808347</a>
+                  <a href="tel:+917018808347">+91 7807342244</a>
                 </li>
                 <li className="flex items-center gap-2 md:gap-4 p-1 md:p-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#00689d" fill="none">
@@ -450,7 +450,7 @@ export default function Home() {
                     <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#00689d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                   </svg>
                   <strong>Languages:</strong>
-                  <span>Hindi, English, Punjabi</span>
+                  <span>Hindi, English</span>
                 </li>
                 <li className="flex items-center gap-2 md:gap-4 p-1 md:p-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#00689d" fill="none">
@@ -642,6 +642,26 @@ export default function Home() {
             </motion.p>
 
             <div className="my-16 ml-2 relative border-l-2 border-gray-600 pl-6 space-y-12">
+              <div className="relative">
+                <div className="absolute -left-9 w-5 h-5 bg-cyan-500 rounded-full border-2 border-white"></div>
+                <motion.div
+                  initial={{ opacity: 0, x: 50 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  className="relative"
+                >
+                  <h3 className="text-xl font-semibold">Full-Stack(MERN) Developer Intern</h3>
+                  <p className="text-sm text-gray-400">Isekai Tech | Nov 2025 - May 2026</p>
+                  <ul className="list-disc list-inside mt-2 text-gray-300 space-y-1 text-sm">
+                    <li>Built a full-stack <strong>Blog Website</strong> using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
+                    <li>Developed responsive and user-friendly UI using React and Tailwind CSS.</li>
+                    <li>Worked on backend APIs, database integration, and application logic using Node.js and MongoDB.</li>
+                    <li>Learned industry practices including debugging, code structure, version control, and deployment.</li>
+                    <li>Collaborated on assigned tasks and improved full-stack development skills.</li>
+                  </ul>
+                </motion.div>
+              </div>
               <div className="relative">
                 <div className="absolute -left-9 w-5 h-5 bg-cyan-500 rounded-full border-2 border-white"></div>
                 <motion.div
