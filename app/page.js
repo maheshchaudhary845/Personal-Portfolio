@@ -796,7 +796,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="flex items-center max-w-full w-full h-16 sm:h-24 bg-gray-900">
-                    <a href="mailto:mehits7@gmail.com" className="p-2 hover:underline text-[14px] sm:text-[16px]">mehits7@gmail.com</a>
+                    <a href="mailto:maheshchaudhary845@gmail.com" className="p-2 hover:underline text-[14px] sm:text-[16px]">maheshchaudhary845@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex">
@@ -806,7 +806,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="flex items-center max-w-full w-full h-16 sm:h-24 bg-gray-900">
-                    <a href="tel:+917018808347" className="p-2 hover:underline text-[14px] sm:text-[16px]">+91 7018808347</a>
+                    <a href="tel:+917807342244" className="p-2 hover:underline text-[14px] sm:text-[16px]">+91 7807342244</a>
                   </div>
                 </div>
                 <iframe className="w-full h-[200px] md:h-[232px] " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d780.7318702113827!2d77.54146699448337!3d30.49064616850507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f17e4f6856a83%3A0xd6d21e344f1bdae1!2sMatak%20Majri%20pind!5e0!3m2!1sen!2sin!4v1757516062653!5m2!1sen!2sin" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
