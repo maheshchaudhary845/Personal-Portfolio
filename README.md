@@ -58,8 +58,6 @@ https://personal-portfolio-snowy-pi.vercel.app/
 
 # 📸 Screenshots
 
-_Add screenshots of the app here (homepage, forecast section, etc.)_
-
 ![Homepage](./public/screenshots/home.png)
 ![About](./public/screenshots/about.png)
 ![Skills](./public/screenshots/skills.png)
